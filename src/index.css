@@ -2,41 +2,68 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* Luxury Christian Brand Design System - Deep Gold, Creamy Off-White, Warm Gray with Burgundy Accents
+All colors MUST be HSL for consistency and theming.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base Colors - Sophisticated Luxury Palette */
+    --background: 44 25% 96%; /* Creamy off-white */
+    --foreground: 20 15% 15%; /* Deep charcoal for text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 44 30% 98%; /* Slightly warmer white for cards */
+    --card-foreground: 20 15% 15%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 44 30% 98%;
+    --popover-foreground: 20 15% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Deep Gold */
+    --primary: 42 85% 35%; /* Rich deep gold */
+    --primary-foreground: 44 25% 96%;
+    --primary-glow: 42 90% 45%; /* Lighter gold for effects */
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Warm Gray */
+    --secondary: 30 8% 85%; /* Sophisticated warm gray */
+    --secondary-foreground: 20 15% 15%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Muted - Subtle warm tones */
+    --muted: 35 15% 88%; /* Warm muted background */
+    --muted-foreground: 25 10% 45%; /* Warm gray text */
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent - Deep Burgundy */
+    --accent: 350 65% 25%; /* Deep burgundy accent */
+    --accent-foreground: 44 25% 96%;
+    
+    /* Forest Green Alternative */
+    --forest: 155 60% 20%; /* Deep forest green */
+    --forest-foreground: 44 25% 96%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Interactive States */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 44 25% 96%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Borders and Inputs */
+    --border: 35 20% 80%; /* Warm border */
+    --input: 35 20% 85%; /* Warm input background */
+    --ring: 42 85% 35%; /* Gold focus ring */
 
-    --radius: 0.5rem;
+    /* Gradients */
+    --gradient-luxury: linear-gradient(135deg, hsl(42 85% 35%), hsl(42 90% 45%));
+    --gradient-warm: linear-gradient(180deg, hsl(44 25% 96%), hsl(35 15% 88%));
+    --gradient-subtle: linear-gradient(45deg, hsl(44 30% 98%), hsl(35 20% 92%));
+
+    /* Shadows */
+    --shadow-luxury: 0 20px 40px -10px hsl(42 85% 35% / 0.15);
+    --shadow-elegant: 0 10px 30px -5px hsl(20 15% 15% / 0.1);
+    --shadow-soft: 0 4px 20px -2px hsl(35 15% 88% / 0.3);
+
+    /* Typography */
+    --font-heading: 'Playfair Display', serif;
+    --font-body: 'Inter', sans-serif;
+
+    /* Spacing & Effects */
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
@@ -100,6 +127,114 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-body antialiased;
   }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer components {
+  /* Custom Button Variants */
+  .btn-luxury {
+    @apply bg-primary text-primary-foreground px-8 py-4 rounded-lg font-medium;
+    @apply hover:bg-primary/90 transition-all duration-300;
+    @apply shadow-[var(--shadow-luxury)] hover:shadow-[var(--shadow-elegant)];
+    @apply hover:scale-105 active:scale-95;
+  }
+
+  .btn-whatsapp {
+    @apply bg-forest text-forest-foreground px-6 py-3 rounded-lg font-medium;
+    @apply hover:bg-forest/90 transition-all duration-300;
+    @apply shadow-[var(--shadow-elegant)] hover:shadow-[var(--shadow-luxury)];
+    @apply hover:scale-105 active:scale-95;
+    @apply flex items-center gap-2;
+  }
+
+  .btn-ghost-luxury {
+    @apply border-2 border-primary text-primary px-6 py-3 rounded-lg font-medium;
+    @apply hover:bg-primary hover:text-primary-foreground transition-all duration-300;
+    @apply hover:scale-105 active:scale-95;
+  }
+
+  /* Card Styles */
+  .card-luxury {
+    @apply bg-card rounded-xl p-6 shadow-[var(--shadow-soft)];
+    @apply hover:shadow-[var(--shadow-elegant)] transition-all duration-300;
+    @apply border border-border/50;
+  }
+
+  .card-product {
+    @apply bg-card rounded-xl overflow-hidden shadow-[var(--shadow-soft)];
+    @apply hover:shadow-[var(--shadow-elegant)] transition-all duration-300;
+    @apply hover:scale-105 cursor-pointer;
+  }
+
+  /* Background Gradients */
+  .bg-luxury-gradient {
+    background: var(--gradient-luxury);
+  }
+
+  .bg-warm-gradient {
+    background: var(--gradient-warm);
+  }
+
+  .bg-subtle-gradient {
+    background: var(--gradient-subtle);
+  }
+
+  /* Text Styles */
+  .text-luxury-gold {
+    @apply text-primary;
+  }
+
+  .text-accent-burgundy {
+    @apply text-accent;
+  }
+
+  .text-forest {
+    @apply text-forest;
+  }
+
+  /* Animation Classes */
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  .animate-fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .animate-scale-in {
+    animation: scaleIn 0.5s ease-out forwards;
+    opacity: 0;
+    transform: scale(0.9);
+  }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes scaleIn {
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Smooth scroll behavior */
+html {
+  scroll-behavior: smooth;
 }
