@@ -194,7 +194,7 @@ All colors MUST be HSL for consistency and theming.
   }
 
   .text-forest {
-    @apply text-forest;
+    color: hsl(var(--forest));
   }
 
   /* Animation Classes */
