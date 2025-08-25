@@ -2,7 +2,7 @@ name: Deploy Vite React App
 
 on:
   push:
-    branches: [ main ] # ou a branch que você usa
+    branches: [ main ] # branch principal
 
 jobs:
   build-and-deploy:
@@ -26,5 +26,5 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages       # branch de destino
-          folder: dist           # pasta gerada pelo build do Vite
+          branch: gh-pages       # branch de destino no GitHub Pages
+          folder: dist           # pasta de build do Vite
