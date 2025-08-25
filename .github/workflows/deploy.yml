@@ -2,14 +2,14 @@ name: Deploy Vite React App
 
 on:
   push:
-    branches: [ main ] # ou a branch principal do seu projeto
+    branches: [ main ] # ou a branch que você usa
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout 🛎️
+      - name: Checkout
         uses: actions/checkout@v3
 
       - name: Setup Node.js
@@ -23,8 +23,8 @@ jobs:
       - name: Build project
         run: npm run build
 
-      - name: Deploy to GitHub Pages 🚀
+      - name: Deploy to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
-          branch: gh-pages
-          folder: dist
+          branch: gh-pages       # branch de destino
+          folder: dist           # pasta gerada pelo build do Vite
