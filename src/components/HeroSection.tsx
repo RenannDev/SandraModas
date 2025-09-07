@@ -25,18 +25,18 @@ export default function HeroSection() {
             <div className="space-y-4">
               <div className="flex items-center space-x-2 text-primary">
                 <Sparkles size={20} />
-                <span className="text-sm font-medium uppercase tracking-wider">Faith-Inspired Fashion</span>
+                <span className="text-sm font-medium uppercase tracking-wider">Moda inspirada na fé</span>
               </div>
               
               <h1 className="text-5xl lg:text-7xl font-heading font-bold text-foreground leading-tight">
-                Grace & 
-                <span className="block text-luxury-gold">Faith</span>
-                <span className="block text-2xl lg:text-4xl font-medium text-muted-foreground">Clothing</span>
+                Sandra & 
+                <span className="block text-luxury-gold">Modas</span>
+                <span className="block text-2xl lg:text-4xl font-medium text-muted-foreground">Evangélicas</span>
               </h1>
               
               <p className="text-xl text-muted-foreground leading-relaxed max-w-md">
-                Discover elegant, faith-inspired clothing that combines luxury with Christian values. 
-                Where sophistication meets spirituality.
+                Descubra roupas elegantes e inspiradas na fé que combinam luxo com valores cristãos.
+Onde a sofisticação encontra a espiritualidade.
               </p>
             </div>
 
@@ -47,7 +47,7 @@ export default function HeroSection() {
                 rel="noopener noreferrer"
                 className="btn-luxury inline-flex items-center justify-center gap-2 group"
               >
-                Shop on WhatsApp
+                Compre no WhatsApp
                 <ArrowRight size={20} className="group-hover:translate-x-1 transition-transform duration-200" />
               </a>
               
@@ -55,7 +55,7 @@ export default function HeroSection() {
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
                 className="btn-ghost-luxury inline-flex items-center justify-center"
               >
-                Learn Our Story
+                Conheça nossa história
               </button>
             </div>
 
@@ -63,15 +63,15 @@ export default function HeroSection() {
             <div className="flex items-center space-x-8 text-sm text-muted-foreground">
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Premium Quality</span>
+                <span>Qualidade Premium</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Faith-Based Values</span>
+                <span>Valores baseados na fé</span>
               </div>
               <div className="flex items-center space-x-2">
                 <div className="w-2 h-2 bg-primary rounded-full"></div>
-                <span>Handcrafted</span>
+                <span>Feito à mão</span>
               </div>
             </div>
           </div>
@@ -84,10 +84,10 @@ export default function HeroSection() {
             
             {/* Floating Elements */}
             <div className="absolute -top-4 -right-4 bg-accent text-accent-foreground px-4 py-2 rounded-full text-sm font-medium animate-float">
-              New Collection
+              Nova coleção
             </div>
             <div className="absolute -bottom-4 -left-4 bg-primary text-primary-foreground px-4 py-2 rounded-full text-sm font-medium animate-float" style={{ animationDelay: '1s' }}>
-              Premium Quality
+              Qualidade Premium
             </div>
           </div>
         </div>

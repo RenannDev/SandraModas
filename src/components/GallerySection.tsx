@@ -8,37 +8,37 @@ const galleryImages = [
   {
     id: 1,
     src: heroGarment,
-    title: "Elegant Blazer Collection",
-    category: "Outerwear"
+    title: "Coleção de Blazers Elegantes",
+    category: "Trajes de Inverno"
   },
   {
     id: 2,
     src: brandPerson,
-    title: "Faith in Style",
+    title: "Fé e Estilo",
     category: "Lifestyle"
   },
   {
     id: 3,
     src: featuredProducts,
-    title: "Premium Collection",
-    category: "Featured"
+    title: "Coleção Premium",
+    category: "Destaque"
   },
   {
     id: 4,
     src: featuredProducts,
-    title: "Summer Essentials",
-    category: "Seasonal"
+    title: "Estilos de Verão",
+    category: "Sazonal"
   },
   {
     id: 5,
     src: heroGarment,
-    title: "Business Casual",
+    title: "Negócios Casuais",
     category: "Professional"
   },
   {
     id: 6,
     src: brandPerson,
-    title: "Weekend Comfort",
+    title: "Conforto de fim de semana",
     category: "Casual"
   }
 ];
@@ -53,16 +53,16 @@ export default function GallerySection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 text-primary mb-4">
             <div className="w-12 h-0.5 bg-primary"></div>
-            <span className="text-sm font-medium uppercase tracking-wider">Visual Story</span>
+            <span className="text-sm font-medium uppercase tracking-wider">História Visual</span>
             <div className="w-12 h-0.5 bg-primary"></div>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            Gallery
+            Galeria
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Explore our collection through beautiful imagery that captures the essence of faith-inspired fashion.
+            Explore nossa coleção através de belas imagens que capturam a essência da moda inspirada na fé.
           </p>
         </div>
 
@@ -111,7 +111,7 @@ export default function GallerySection() {
         {/* Call to Action */}
         <div className="text-center mt-16">
           <p className="text-lg text-muted-foreground mb-6">
-            Love what you see? Let's talk about creating your perfect wardrobe.
+            Amou o que viu? Vamos conversar sobre a criação do seu guarda-roupa perfeito.
           </p>
           <a
             href="https://wa.me/1234567890?text=I'm inspired by your gallery! I'd love to discuss creating a custom wardrobe that reflects my faith and style."
@@ -119,7 +119,7 @@ export default function GallerySection() {
             rel="noopener noreferrer"
             className="btn-luxury"
           >
-            Start Your Style Journey
+            Iniciar sua Jornada de Estilo
           </a>
         </div>
       </div>

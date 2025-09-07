@@ -51,25 +51,25 @@ export default function Header() {
               onClick={() => scrollToSection('about')}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              About
+              Sobre
             </button>
             <button 
               onClick={() => scrollToSection('products')}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Products
+              Produtos
             </button>
             <button 
               onClick={() => scrollToSection('gallery')}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Gallery
+              Galeria
             </button>
             <button 
               onClick={() => scrollToSection('contact')}
               className="text-foreground hover:text-primary transition-colors duration-200 font-medium"
             >
-              Contact
+              Contatos
             </button>
             
             {/* CTA Button */}
@@ -79,7 +79,7 @@ export default function Header() {
               rel="noopener noreferrer"
               className="btn-whatsapp"
             >
-              Shop on WhatsApp
+              Compre no WhatsApp
             </a>
           </div>
 
@@ -106,25 +106,25 @@ export default function Header() {
                 onClick={() => scrollToSection('about')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
-                About
+                Sobre
               </button>
               <button 
                 onClick={() => scrollToSection('products')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
-                Products
+                Produtos
               </button>
               <button 
                 onClick={() => scrollToSection('gallery')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
-                Gallery
+                Galeria
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
                 className="text-left text-foreground hover:text-primary transition-colors duration-200 font-medium"
               >
-                Contact
+                Contatos
               </button>
               
               <a
@@ -133,7 +133,7 @@ export default function Header() {
                 rel="noopener noreferrer"
                 className="btn-whatsapp w-fit"
               >
-                Shop on WhatsApp
+                Compre no WhatsApp
               </a>
             </div>
           </div>

@@ -8,17 +8,16 @@ export default function ContactSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 text-primary mb-4">
             <div className="w-12 h-0.5 bg-primary"></div>
-            <span className="text-sm font-medium uppercase tracking-wider">Get In Touch</span>
+            <span className="text-sm font-medium uppercase tracking-wider">Entre em contato</span>
             <div className="w-12 h-0.5 bg-primary"></div>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            Connect with Us
+            Conecte-se conosco
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We'd love to hear from you! Whether you have questions about our products, 
-            want to share your faith journey, or simply want to say hello.
+            Adoraríamos ouvir você! Se você tiver dúvidas sobre nossos produtos, quiser compartilhar sua jornada de fé ou simplesmente dizer oi, entre em contato.
           </p>
         </div>
 
@@ -31,12 +30,11 @@ export default function ContactSection() {
               </div>
               
               <h3 className="text-2xl font-heading font-bold text-foreground mb-4">
-                Shop on WhatsApp
+                Compre no WhatsApp
               </h3>
               
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Experience personalized shopping with our dedicated team. Get instant responses, 
-                see exclusive pieces, and enjoy a seamless shopping experience.
+               Experimente compras personalizadas com nossa equipe dedicada. Receba respostas instantâneas, veja peças exclusivas e desfrute de uma experiência de compra fluida.
               </p>
               
               <a
@@ -46,18 +44,18 @@ export default function ContactSection() {
                 className="btn-whatsapp text-lg px-8 py-4"
               >
                 <MessageCircle size={20} />
-                Start Shopping Now
+                Comece a comprar agora
               </a>
               
               <div className="mt-6 text-sm text-muted-foreground">
-                Available Monday - Saturday, 9 AM - 7 PM EST
+                Disponível de segunda a sábado, das 9h às 19h (horário de Brasilia)
               </div>
             </div>
 
             {/* Contact Info */}
             <div className="space-y-4">
               <h4 className="font-heading font-semibold text-foreground text-lg mb-4">
-                Other Ways to Reach Us
+                Outras maneiras de nos contatar
               </h4>
               
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200">
@@ -76,12 +74,12 @@ export default function ContactSection() {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-heading font-bold text-foreground mb-6">
-                Join Our Faith Community
+                Junte-se à nossa comunidade de fé
               </h3>
               
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Follow us on social media for style inspiration, faith encouragement, 
-                behind-the-scenes content, and to connect with our growing community of believers.
+                Siga-nos nas redes sociais para obter inspiração de estilo, incentivo à fé,
+conteúdo dos bastidores e para se conectar com nossa crescente comunidade de fiéis.
               </p>
 
               {/* Social Links */}
@@ -112,7 +110,7 @@ export default function ContactSection() {
                   </div>
                   <div>
                     <div className="font-medium text-foreground group-hover:text-primary transition-colors duration-200">Facebook</div>
-                    <div className="text-sm text-muted-foreground">Grace & Faith</div>
+                    <div className="text-sm text-muted-foreground">Sandra Modas</div>
                   </div>
                 </a>
               </div>
@@ -121,11 +119,10 @@ export default function ContactSection() {
             {/* Newsletter Signup */}
             <div className="card-luxury">
               <h4 className="font-heading font-semibold text-foreground text-lg mb-4">
-                Stay Connected
-              </h4>
+Fique conectado              </h4>
               
               <p className="text-muted-foreground mb-6">
-                Get the latest updates, exclusive offers, and faith-inspired content delivered to your inbox.
+                Receba as últimas atualizações, ofertas exclusivas e conteúdo inspirado pela fé na sua caixa de entrada.
               </p>
               
               <a
@@ -134,7 +131,7 @@ export default function ContactSection() {
                 rel="noopener noreferrer"
                 className="btn-ghost-luxury w-full justify-center"
               >
-                Subscribe via WhatsApp
+                Inscreva-se via WhatsApp
               </a>
             </div>
           </div>
@@ -143,13 +140,13 @@ export default function ContactSection() {
         {/* Bottom Message */}
         <div className="text-center mt-16 pt-12 border-t border-border">
           <blockquote className="text-xl font-heading italic text-primary mb-4">
-            "Come to me, all you who are weary and burdened, and I will give you rest."
+            "Venham a mim, todos os que estão cansados e sobrecarregados, e eu lhes darei descanso."
           </blockquote>
-          <cite className="text-muted-foreground">Matthew 11:28</cite>
+          <cite className="text-muted-foreground">Mateus 11:28</cite>
           
           <p className="text-muted-foreground mt-6 max-w-xl mx-auto">
-            We're more than a clothing brand - we're a community of believers supporting each other 
-            in faith and style. We can't wait to connect with you!
+            Somos mais do que uma marca de roupas — somos uma comunidade de crentes que se apoiam mutuamente
+com fé e estilo. Mal podemos esperar para nos conectar com você!
           </p>
         </div>
       </div>

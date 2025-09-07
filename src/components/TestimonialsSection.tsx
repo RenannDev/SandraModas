@@ -7,7 +7,7 @@ const testimonials = [
     name: "Sarah Mitchell",
     location: "Dallas, TX",
     rating: 5,
-    text: "Grace & Faith Clothing has transformed my wardrobe. The quality is exceptional, and I love how each piece reflects my values. I feel confident and beautiful wearing their designs.",
+    text: "Sandra Modas transformou meu guarda-roupa. A qualidade é excepcional e adoro como cada peça reflete meus valores. Sinto-me confiante e bonita usando seus designs.",
     product: "Grace Elegance Blazer"
   },
   {
@@ -15,7 +15,7 @@ const testimonials = [
     name: "Maria Rodriguez",
     location: "Phoenix, AZ",
     rating: 5,
-    text: "Finally, a brand that understands the importance of modesty without sacrificing style. The attention to detail and craftsmanship is remarkable. Highly recommend!",
+    text: "Finalmente, uma marca que entende a importância da modéstia sem abrir mão do estilo. A atenção aos detalhes e o artesanato são notáveis. Recomendo muito!",
     product: "Faith Serenity Dress"
   },
   {
@@ -23,7 +23,7 @@ const testimonials = [
     name: "Jennifer Thompson",
     location: "Nashville, TN",
     rating: 5,
-    text: "The customer service is outstanding, and the clothing exceeded my expectations. It's wonderful to support a brand that shares my faith and values.",
+    text: "O atendimento ao cliente é excelente e as roupas superaram minhas expectativas. É maravilhoso apoiar uma marca que compartilha minha fé e meus valores.",
     product: "Blessed Comfort Cardigan"
   },
   {
@@ -31,7 +31,7 @@ const testimonials = [
     name: "Rachel Adams",
     location: "Charlotte, NC",
     rating: 5,
-    text: "Each piece I've purchased has become a staple in my wardrobe. The fabric quality is amazing, and I always receive compliments when wearing Grace & Faith.",
+    text: "Cada peça que comprei se tornou um item essencial no meu guarda-roupa. A qualidade do tecido é incrível e sempre recebo elogios quando uso Grace & Faith.",
     product: "Divine Grace Blouse"
   }
 ];
@@ -64,16 +64,16 @@ export default function TestimonialsSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 text-primary mb-4">
             <div className="w-12 h-0.5 bg-primary"></div>
-            <span className="text-sm font-medium uppercase tracking-wider">Customer Stories</span>
+            <span className="text-sm font-medium uppercase tracking-wider">Histórias de clientes</span>
             <div className="w-12 h-0.5 bg-primary"></div>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            What Our Community Says
+            O que nossa comunidade diz
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Real stories from real customers who have experienced the Grace & Faith difference.
+           Histórias reais de clientes reais que experimentaram a diferença da Grace & Faith.
           </p>
         </div>
 
@@ -150,15 +150,15 @@ export default function TestimonialsSection() {
         <div className="mt-20 grid md:grid-cols-3 gap-8">
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-2">500+</div>
-            <div className="text-muted-foreground">Happy Customers</div>
+            <div className="text-muted-foreground">HClientes satisfeitos</div>
           </div>
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-2">4.9</div>
-            <div className="text-muted-foreground">Average Rating</div>
+            <div className="text-muted-foreground">AClassificação média</div>
           </div>
           <div className="text-center">
             <div className="text-4xl lg:text-5xl font-heading font-bold text-primary mb-2">98%</div>
-            <div className="text-muted-foreground">Would Recommend</div>
+            <div className="text-muted-foreground">Recomendaria</div>
           </div>
         </div>
 
@@ -170,7 +170,7 @@ export default function TestimonialsSection() {
             rel="noopener noreferrer"
             className="btn-luxury"
           >
-            Share Your Story
+            Compartilhe sua história
           </a>
         </div>
       </div>

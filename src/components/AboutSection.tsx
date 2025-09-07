@@ -20,13 +20,15 @@ export default function AboutSection() {
             {/* Floating Quote */}
             <div className="absolute -bottom-8 -right-8 bg-card p-6 rounded-xl shadow-[var(--shadow-elegant)] max-w-xs">
               <p className="text-sm italic text-muted-foreground mb-2">
-                "Faith and fashion beautifully woven together"
+                "Fé e moda lindamente entrelaçadas."
               </p>
               <div className="flex items-center space-x-2">
                 <div className="w-8 h-8 bg-primary rounded-full flex items-center justify-center">
                   <Heart size={16} className="text-primary-foreground" />
                 </div>
-                <span className="text-sm font-medium">Our Promise</span>
+                <span className="text-sm font-medium">Nossa Promessa
+
+</span>
               </div>
             </div>
           </div>
@@ -36,23 +38,19 @@ export default function AboutSection() {
             <div className="space-y-4">
               <div className="inline-flex items-center space-x-2 text-primary mb-4">
                 <div className="w-12 h-0.5 bg-primary"></div>
-                <span className="text-sm font-medium uppercase tracking-wider">Why Our Brand</span>
+                <span className="text-sm font-medium uppercase tracking-wider">Por que Nossa Marca</span>
               </div>
               
               <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground">
-                Where Faith Meets Fashion
+                Onde a Fé Encontra a Moda
               </h2>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                At Grace & Faith Clothing, we believe that your wardrobe should reflect not just your style, 
-                but your values. Each piece is thoughtfully designed to embody elegance, quality, and the 
-                timeless principles of Christian faith.
+                Sandras Modas, acreditamos que seu guarda-roupa deve refletir não apenas seu estilo, mas também seus valores. Cada peça é cuidadosamente projetada para incorporar a elegância, a qualidade e os princípios atemporais da fé cristã.
               </p>
               
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Founded on the belief that fashion can be both beautiful and meaningful, we create clothing 
-                that allows you to express your faith with confidence and grace. Every garment tells a story 
-                of hope, love, and unwavering belief.
+                Fundada na crença de que a moda pode ser tanto bonita quanto significativa, criamos roupas que permitem que você expresse sua fé com confiança e graça. Cada peça de vestuário conta uma história de esperança, amor e crença inabalável.
               </p>
             </div>
 
@@ -62,24 +60,30 @@ export default function AboutSection() {
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300">
                   <Shield size={24} className="text-primary" />
                 </div>
-                <h3 className="font-heading font-semibold text-foreground mb-2">Quality Promise</h3>
-                <p className="text-sm text-muted-foreground">Premium materials and exceptional craftsmanship in every piece</p>
+                <h3 className="font-heading font-semibold text-foreground mb-2">Qualidade Garantida</h3>
+                <p className="text-sm text-muted-foreground">Materiais premium e artesanato excepcional em cada peça
+
+</p>
               </div>
               
               <div className="text-center group">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300">
                   <Heart size={24} className="text-primary" />
                 </div>
-                <h3 className="font-heading font-semibold text-foreground mb-2">Faith-Centered</h3>
-                <p className="text-sm text-muted-foreground">Designs that honor and celebrate Christian values</p>
+                <h3 className="font-heading font-semibold text-foreground mb-2">Centrado na Fé</h3>
+                <p className="text-sm text-muted-foreground">Designs que honram e celebram os valores cristãos
+
+</p>
               </div>
               
               <div className="text-center group">
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4 group-hover:bg-primary/20 transition-colors duration-300">
                   <Star size={24} className="text-primary" />
                 </div>
-                <h3 className="font-heading font-semibold text-foreground mb-2">Timeless Style</h3>
-                <p className="text-sm text-muted-foreground">Classic designs that transcend fleeting trends</p>
+                <h3 className="font-heading font-semibold text-foreground mb-2">Estilo Atemporal
+
+</h3>
+                <p className="text-sm text-muted-foreground">Designs clássicos que transcendem as tendências passageiras</p>
               </div>
             </div>
 
@@ -91,7 +95,7 @@ export default function AboutSection() {
                 rel="noopener noreferrer"
                 className="btn-whatsapp"
               >
-                Connect with Us
+                Conecte-se Conosco
               </a>
             </div>
           </div>

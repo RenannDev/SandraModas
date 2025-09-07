@@ -7,7 +7,7 @@ const products = [
     id: 1,
     name: "Grace Elegance Blazer",
     description: "Sophisticated blazer perfect for both professional and casual settings",
-    price: "$189",
+    price: "R$189",
     image: featuredProducts,
     category: "Outerwear"
   },
@@ -15,7 +15,7 @@ const products = [
     id: 2,
     name: "Faith Serenity Dress",
     description: "Flowing dress that embodies grace and modesty",
-    price: "$149",
+    price: "R$149",
     image: featuredProducts,
     category: "Dresses"
   },
@@ -23,7 +23,7 @@ const products = [
     id: 3,
     name: "Blessed Comfort Cardigan",
     description: "Cozy cardigan for everyday elegance",
-    price: "$119",
+    price: "R$119",
     image: featuredProducts,
     category: "Knitwear"
   },
@@ -31,7 +31,7 @@ const products = [
     id: 4,
     name: "Divine Grace Blouse",
     description: "Classic blouse with contemporary styling",
-    price: "$89",
+    price: "R$89",
     image: featuredProducts,
     category: "Tops"
   },
@@ -39,7 +39,7 @@ const products = [
     id: 5,
     name: "Peaceful Presence Skirt",
     description: "Modest midi skirt for any occasion",
-    price: "$79",
+    price: "R$79",
     image: featuredProducts,
     category: "Bottoms"
   }
@@ -70,17 +70,17 @@ export default function ProductsSection() {
         <div className="text-center mb-16">
           <div className="inline-flex items-center space-x-2 text-primary mb-4">
             <div className="w-12 h-0.5 bg-primary"></div>
-            <span className="text-sm font-medium uppercase tracking-wider">Featured Collection</span>
+            <span className="text-sm font-medium uppercase tracking-wider">Coleção em destaque</span>
             <div className="w-12 h-0.5 bg-primary"></div>
           </div>
           
           <h2 className="text-4xl lg:text-5xl font-heading font-bold text-foreground mb-6">
-            Our Most Loved Pieces
+            Nossas Peças Mais Amadas
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Discover our carefully curated collection of faith-inspired fashion. 
-            Each piece is designed to help you express your values with elegance and confidence.
+            Descubra nossa coleção cuidadosamente selecionada de moda inspirada na fé.
+Cada peça foi criada para ajudar você a expressar seus valores com elegância e confiança.
           </p>
         </div>
 
@@ -126,7 +126,7 @@ export default function ProductsSection() {
                   <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <button className="btn-ghost-luxury text-white border-white hover:bg-white hover:text-primary">
                       <ExternalLink size={16} className="mr-2" />
-                      View Details
+                      Ver detalhes
                     </button>
                   </div>
                 </div>
@@ -146,7 +146,7 @@ export default function ProductsSection() {
                       rel="noopener noreferrer"
                       className="text-sm text-forest hover:text-forest/80 font-medium transition-colors duration-200"
                     >
-                      Ask About This →
+                      Pergunte sobre isso →
                     </a>
                   </div>
                 </div>
@@ -178,7 +178,7 @@ export default function ProductsSection() {
             rel="noopener noreferrer"
             className="btn-luxury"
           >
-            Explore Full Collection
+            Explorar a coleção completa
           </a>
         </div>
       </div>
