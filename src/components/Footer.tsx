@@ -31,7 +31,7 @@ expressar seus valores com elegância e confiança.
             
             <div className="flex items-center space-x-4">
               <a
-                href="https://instagram.com/graceandfaith"
+                href="https://instagram.com/sandra_modasmulhervirtuosa"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
@@ -39,7 +39,7 @@ expressar seus valores com elegância e confiança.
                 <Instagram size={18} />
               </a>
               <a
-                href="https://facebook.com/graceandfaith"
+                href="https://www.facebook.com/share/17AgcbHmym/ "
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
@@ -47,13 +47,13 @@ expressar seus valores com elegância e confiança.
                 <Facebook size={18} />
               </a>
               <a
-                href="mailto:hello@graceandfaith.com"
+                href="sandragfreitas1974@gmail"
                 className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
               >
                 <Mail size={18} />
               </a>
               <a
-                href="https://wa.me/1234567890"
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-forest rounded-full flex items-center justify-center hover:bg-forest/80 text-forest-foreground transition-colors duration-200"

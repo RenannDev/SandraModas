@@ -114,7 +114,7 @@ Ainda tem perguntas?          </h3>
             Nossa equipe está aqui para ajudar! Entre em contato conosco diretamente e teremos prazer em ajudar com qualquer dúvida ou preocupação.
           </p>
           <a
-            href="https://wa.me/1234567890?text=Hi! I have a question that wasn't covered in your FAQ section. Could you help me?"
+            href="https://wa.me/558393092886"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-whatsapp"

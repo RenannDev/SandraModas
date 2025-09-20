@@ -42,7 +42,7 @@ Onde a sofisticação encontra a espiritualidade.
 
             <div className="flex flex-col sm:flex-row gap-4">
               <a
-                href="https://wa.me/1234567890?text=Hello! I'm interested in your Christian clothing collection."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-luxury inline-flex items-center justify-center gap-2 group"

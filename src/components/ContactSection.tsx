@@ -38,7 +38,7 @@ export default function ContactSection() {
               </p>
               
               <a
-                href="https://wa.me/1234567890?text=Hello! I'm interested in exploring your Christian clothing collection. Could you help me find the perfect pieces?"
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp text-lg px-8 py-4"
@@ -60,12 +60,12 @@ export default function ContactSection() {
               
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200">
                 <Mail size={20} />
-                <span>hello@graceandfaith.com</span>
+                <span>sandrafreitas1974@gmail</span>
               </div>
               
               <div className="flex items-center space-x-3 text-muted-foreground hover:text-primary transition-colors duration-200">
                 <Phone size={20} />
-                <span>+1 (555) 123-FAITH</span>
+                <span>+55 83 9309-2886</span>
               </div>
             </div>
           </div>
@@ -85,7 +85,7 @@ conteúdo dos bastidores e para se conectar com nossa crescente comunidade de fi
               {/* Social Links */}
               <div className="grid sm:grid-cols-2 gap-4">
                 <a
-                  href="https://instagram.com/graceandfaith"
+                  href="https://instagram.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center space-x-3 p-4 border border-border rounded-lg hover:border-primary hover:bg-primary/5 transition-all duration-200 group"
@@ -95,7 +95,7 @@ conteúdo dos bastidores e para se conectar com nossa crescente comunidade de fi
                   </div>
                   <div>
                     <div className="font-medium text-foreground group-hover:text-primary transition-colors duration-200">Instagram</div>
-                    <div className="text-sm text-muted-foreground">@graceandfaith</div>
+                    <div className="text-sm text-muted-foreground">@sandra_modas</div>
                   </div>
                 </a>
 
@@ -126,7 +126,7 @@ Fique conectado              </h4>
               </p>
               
               <a
-                href="https://wa.me/1234567890?text=I'd like to join your newsletter to stay updated on new collections and faith-inspired content."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-ghost-luxury w-full justify-center"

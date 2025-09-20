@@ -90,7 +90,7 @@ export default function AboutSection() {
             {/* CTA */}
             <div className="pt-6">
               <a
-                href="https://wa.me/1234567890?text=I'd love to learn more about your brand story and values."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-whatsapp"

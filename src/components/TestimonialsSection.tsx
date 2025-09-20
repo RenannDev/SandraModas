@@ -165,7 +165,7 @@ export default function TestimonialsSection() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/1234567890?text=I'd love to share my own Grace & Faith experience and learn more about your latest pieces."
+            href="https://wa.me/558393092886"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-luxury"

@@ -141,7 +141,7 @@ Cada peça foi criada para ajudar você a expressar seus valores com elegância 
                   <div className="flex items-center justify-between">
                     <span className="text-2xl font-bold text-primary">{product.price}</span>
                     <a
-                      href={`https://wa.me/1234567890?text=I'm interested in the ${product.name}. Could you provide more details?`}
+                      href="https://wa.me/558393092886"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-sm text-forest hover:text-forest/80 font-medium transition-colors duration-200"
@@ -173,7 +173,7 @@ Cada peça foi criada para ajudar você a expressar seus valores com elegância 
         {/* CTA Section */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/1234567890?text=I'd like to see your complete collection. What pieces do you currently have available?"
+            href="https://wa.me/558393092886"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-luxury"
