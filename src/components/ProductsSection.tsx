@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
-import featuredProducts from '../assets/featured-products.jpg';
+import featuredProducts from '../assets/secao-destaque.jpg';
 
 const products = [
   {
