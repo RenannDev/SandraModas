@@ -1,47 +1,52 @@
 import { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink } from 'lucide-react';
-import featuredProducts from '../assets/secao-destaque.jpg';
+import featuredProducts from '../assets/destaques/secao-destaque.jpg';
+import featuredProducts1 from '../assets/destaques/agasalho.jpg';
+import featuredProducts2 from '../assets/destaques/intimo.jpg';
+import featuredProducts3 from '../assets/destaques/saia-rodada.jpg';
+import featuredProducts4 from '../assets/destaques/camisa-social-m.jpg';
+
 
 const products = [
   {
     id: 1,
-    name: "Grace Elegance Blazer",
-    description: "Sophisticated blazer perfect for both professional and casual settings",
+    name: "Kit - Saia e Camisa",
+    description: "versatilidade e estilo para todas as ocasiões com um toque de delicadeza",
     price: "R$189",
     image: featuredProducts,
-    category: "Outerwear"
+    category: "Conjuntos"
   },
   {
     id: 2,
-    name: "Faith Serenity Dress",
-    description: "Flowing dress that embodies grace and modesty",
+    name: "Casaco de Tricô",
+    description: "Invista em um clássico: o casaco de tricot! Versátil e aconchegante, ele é a camada perfeita para adicionar charme e delicadeza às suas produções.",
     price: "R$149",
-    image: featuredProducts,
-    category: "Dresses"
+    image: featuredProducts1,
+    category: "Tricô"
   },
   {
     id: 3,
-    name: "Blessed Comfort Cardigan",
-    description: "Cozy cardigan for everyday elegance",
+    name: "Cinta Body Modeladora",
+    description: "Sinta-se ainda mais poderosa e confiante! Nossa cinta body modeladora é a peça secreta para um caimento impecável e uma silhueta deslumbrante em qualquer roupa",
     price: "R$119",
-    image: featuredProducts,
-    category: "Knitwear"
+    image: featuredProducts2,
+    category: "Intimo"
   },
   {
     id: 4,
-    name: "Divine Grace Blouse",
-    description: "Classic blouse with contemporary styling",
+    name: "Saia Rodada ",
+    description: "Leveza, movimento e elegância em uma única peça! A nossa saia rodada longa é um clássico que esbanja delicadeza e feminilidade. Um item indispensável para o seu guarda-roupa",
     price: "R$89",
-    image: featuredProducts,
-    category: "Tops"
+    image: featuredProducts3,
+    category: "Saias"
   },
   {
     id: 5,
-    name: "Peaceful Presence Skirt",
-    description: "Modest midi skirt for any occasion",
+    name: "Camisa Social Masculina",
+    description: "Invista no básico que faz a diferença! Nossa camisa social masculina é sinônimo de elegância e estilo, ideal para criar looks que vão do formal ao casual. Uma peça essencial para o homem moderno e de fé",
     price: "R$79",
-    image: featuredProducts,
-    category: "Bottoms"
+    image: featuredProducts4,
+    category: "Social"
   }
 ];
 

@@ -4,35 +4,35 @@ import { Star, ChevronLeft, ChevronRight, Quote } from 'lucide-react';
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Mitchell",
-    location: "Dallas, TX",
+    name: "Sarah Golçalves",
+    location: "Sumé, PB",
     rating: 5,
     text: "Sandra Modas transformou meu guarda-roupa. A qualidade é excepcional e adoro como cada peça reflete meus valores. Sinto-me confiante e bonita usando seus designs.",
-    product: "Grace Elegance Blazer"
+    product: "Casoco de Tricot Rosa"
   },
   {
     id: 2,
     name: "Maria Rodriguez",
-    location: "Phoenix, AZ",
+    location: "Recife, PE",
     rating: 5,
     text: "Finalmente, uma marca que entende a importância da modéstia sem abrir mão do estilo. A atenção aos detalhes e o artesanato são notáveis. Recomendo muito!",
-    product: "Faith Serenity Dress"
+    product: "Kit Evangélico Completo"
   },
   {
     id: 3,
-    name: "Jennifer Thompson",
-    location: "Nashville, TN",
+    name: "Jennifer Marinho",
+    location: "Monteiro, PB",
     rating: 5,
     text: "O atendimento ao cliente é excelente e as roupas superaram minhas expectativas. É maravilhoso apoiar uma marca que compartilha minha fé e meus valores.",
-    product: "Blessed Comfort Cardigan"
+    product: "Saia Rodada Longa"
   },
   {
     id: 4,
-    name: "Rachel Adams",
-    location: "Charlotte, NC",
+    name: "Raquel Silva",
+    location: "Sumé, PB",
     rating: 5,
     text: "Cada peça que comprei se tornou um item essencial no meu guarda-roupa. A qualidade do tecido é incrível e sempre recebo elogios quando uso Grace & Faith.",
-    product: "Divine Grace Blouse"
+    product: "Vestido Midi Florado"
   }
 ];
 
@@ -73,7 +73,7 @@ export default function TestimonialsSection() {
           </h2>
           
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-           Histórias reais de clientes reais que experimentaram a diferença da Grace & Faith.
+           Histórias reais de clientes reais que experimentaram a diferença da Sandra Modas.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export default function TestimonialsSection() {
                   {currentTestimonial.location}
                 </p>
                 <p className="text-sm text-primary font-medium">
-                  Purchased: {currentTestimonial.product}
+                  Comprado: {currentTestimonial.product}
                 </p>
               </div>
             </div>
@@ -165,7 +165,7 @@ export default function TestimonialsSection() {
         {/* CTA */}
         <div className="text-center mt-16">
           <a
-            href="https://wa.me/558393092886"
+            href="mailto:sandragfreitas1974@gmail.com"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-luxury"

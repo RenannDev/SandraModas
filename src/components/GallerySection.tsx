@@ -1,21 +1,24 @@
 import { useState } from 'react';
 import { ZoomIn } from 'lucide-react';
-import featuredProducts from '../assets/featured-products.jpg';
-import brandPerson from '../assets/brand-person.jpg';
-import heroGarment from '../assets/hero-garment.jpg';
+import featuredProducts from '../assets/colecao.jpg';
+import featuredProducts2 from '../assets/galeria-img-vertical2.jpg';
+import brandPerson from '../assets/kit-evangelico.jpg';
+import brandPerson2 from '../assets/fim-de-semana.jpg';
+import heroGarment from '../assets/galeria-img-vertical.jpg';
+import heroGarment2 from '../assets/casaco-rosa.jpg';
 
 const galleryImages = [
   {
     id: 1,
     src: heroGarment,
-    title: "Coleção de Blazers Elegantes",
-    category: "Trajes de Inverno"
+    title: "Coleção completa",
+    category: "Kit Evangélico"
   },
   {
     id: 2,
     src: brandPerson,
-    title: "Fé e Estilo",
-    category: "Lifestyle"
+    title: "Um estilo para todas as ocasiões",
+    category: "Casual"
   },
   {
     id: 3,
@@ -25,19 +28,19 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: featuredProducts,
+    src: featuredProducts2,
     title: "Estilos de Verão",
     category: "Sazonal"
   },
   {
     id: 5,
-    src: heroGarment,
-    title: "Negócios Casuais",
-    category: "Professional"
+    src: heroGarment2,
+    title: "Para momentos especiais",
+    category: "Inverno"
   },
   {
     id: 6,
-    src: brandPerson,
+    src: brandPerson2,
     title: "Conforto de fim de semana",
     category: "Casual"
   }

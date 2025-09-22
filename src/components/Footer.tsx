@@ -39,7 +39,7 @@ expressar seus valores com elegância e confiança.
                 <Instagram size={18} />
               </a>
               <a
-                href="https://www.facebook.com/share/17AgcbHmym/ "
+                href="https://www.facebook.com/sandra.goncalves.de.freitas.2025?rdid=jHX3qp6kwe82PNXc&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F17AgcbHmym%2F#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
@@ -47,7 +47,7 @@ expressar seus valores com elegância e confiança.
                 <Facebook size={18} />
               </a>
               <a
-                href="sandragfreitas1974@gmail"
+                href="mailto:sandragfreitas1974@gmail"
                 className="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors duration-200"
               >
                 <Mail size={18} />
@@ -111,7 +111,7 @@ expressar seus valores com elegância e confiança.
                 FAQ
               </button>
               <a
-                href="https://wa.me/1234567890?text=I need help with sizing information."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -119,7 +119,7 @@ expressar seus valores com elegância e confiança.
                 Guia de dimensionamento
               </a>
               <a
-                href="https://wa.me/1234567890?text=I'd like to know about your return policy."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -127,7 +127,7 @@ expressar seus valores com elegância e confiança.
                 Devoluções & trocas
               </a>
               <a
-                href="https://wa.me/1234567890?text=I have a question about shipping."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -135,7 +135,7 @@ expressar seus valores com elegância e confiança.
                 Informações de envio
               </a>
               <a
-                href="https://wa.me/1234567890?text=I need customer support."
+                href="https://wa.me/558393092886"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="block text-muted-foreground hover:text-primary transition-colors duration-200"
@@ -157,7 +157,7 @@ expressar seus valores com elegância e confiança.
               <span className="flex items-center space-x-1">
                 <span>Feito com</span>
                 <Heart size={16} className="text-accent fill-current" />
-                <span>e fé</span>
+                <span>por <a href="https://www.linkedin.com/in/vitorrenan/" target="_blank">Vitor Renan</a></span>
               </span>
             </div>
             
