@@ -1,8 +1,4 @@
-# 👗 Visualizador 3D de Manequim de Costura (Three.js)
-
-<p align="center">
-  <img src="URL_DA_IMAGEM_DE_DEMONSTRACAO" alt="Captura de tela do projeto" width="600"/>
-</p>
+# 👗
 
 ## 🌟 Visão Geral
 
