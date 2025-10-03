@@ -1,73 +1,26 @@
-# Welcome to your Lovable project
+# 👗
 
-## Project info
+## 🌟 Visão Geral
 
-**URL**: https://lovable.dev/projects/e6e76315-ce9e-44d6-ad50-9be28b5d95c6
+Este projeto é um visualizador 3D interativo de um **Manequim de Costura** (Dress Form), desenvolvido usando a biblioteca **Three.js**. O foco é exibir o tronco humano e os braços com proporções precisas para facilitar o design e a visualização de roupas em um ambiente web.
 
-## How can I edit this code?
+O modelo 3D foi customizado para exibir apenas o tronco e os braços, excluindo cabeça, pescoço e pernas, conforme a necessidade de prototipagem de vestuário.
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## ✨ Funcionalidades
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e6e76315-ce9e-44d6-ad50-9be28b5d95c6) and start prompting.
+* **Modelo 3D Customizado:** Exibição detalhada do tronco e braços de um manequim.
+* **Controles Interativos:** Permite ao usuário rotacionar e aplicar zoom no modelo 3D.
+* **Iluminação Otimizada:** Configuração de luzes (como `HemisphereLight` e `DirectionalLight`) para destacar a textura e o volume do manequim.
+* **Performance Web:** Utilização de arquivos `.gltf` ou `.fbx` (ou outra otimização) para carregamento rápido e renderização eficiente.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠️ Tecnologias Utilizadas
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Three.js:** Biblioteca principal para renderização 3D em WebGL.
+* **React:** Para uma melhor reutilização de código.
+* **TypeScript:** Para uma melhor organização e manutenção.
+* **Tailwindcss:** Para estilizar componentes de forma rápida e responsiva.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e6e76315-ce9e-44d6-ad50-9be28b5d95c6) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
