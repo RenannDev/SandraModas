@@ -20,22 +20,7 @@ O modelo 3D foi customizado para exibir apenas o tronco e os braços, excluindo 
 ## 🛠️ Tecnologias Utilizadas
 
 * **Three.js:** Biblioteca principal para renderização 3D em WebGL.
-* **JavaScript (ES6+):** Linguagem de programação.
-* **HTML/CSS:** Estrutura base da página.
-* **GLTFLoader/FBXLoader:** Para carregar o modelo 3D otimizado.
+* **React:** Para uma melhor reutilização de código.
+* **TypeScript:** Para uma melhor organização e manutenção.
+* **Tailwindcss:** Para estilizar componentes de forma rápida e responsiva.
 
----
-
-## 🚀 Como Executar o Projeto
-
-Para executar este projeto localmente, siga os passos abaixo:
-
-### Pré-requisitos
-
-Você precisará de um servidor web local, pois navegadores modernos geralmente bloqueiam o carregamento de arquivos (`.gltf`, `.json`, etc.) diretamente via `file://`.
-
-**Opção recomendada (via Node.js):**
-
-```bash
-# Se você tiver o Node.js instalado, instale o http-server globalmente
-npm install -g http-server
