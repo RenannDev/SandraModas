@@ -8,15 +8,6 @@ O modelo 3D foi customizado para exibir apenas o tronco e os braços, excluindo 
 
 ---
 
-## ✨ Funcionalidades
-
-* **Modelo 3D Customizado:** Exibição detalhada do tronco e braços de um manequim.
-* **Controles Interativos:** Permite ao usuário rotacionar e aplicar zoom no modelo 3D.
-* **Iluminação Otimizada:** Configuração de luzes (como `HemisphereLight` e `DirectionalLight`) para destacar a textura e o volume do manequim.
-* **Performance Web:** Utilização de arquivos `.gltf` ou `.fbx` (ou outra otimização) para carregamento rápido e renderização eficiente.
-
----
-
 ## 🛠️ Tecnologias Utilizadas
 
 * **Three.js:** Biblioteca principal para renderização 3D em WebGL.
