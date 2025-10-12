@@ -43,7 +43,7 @@ A Sandra Modas agora possui uma vitrine digital moderna, ampliando sua presença
 
 ## 🔗 Links
 
-- 🌐 **Site Online:** [sandra-modas.vercel.app](lojasandramodas.com.br)  
+- 🌐 **Site Online:** [lojasandramodas.com.br](lojasandramodas.com.br)  
 - 💻 **Repositório:** [github.com/RenannDev/SandraModas](https://github.com/RenannDev/SandraModas)  
 
 ---
